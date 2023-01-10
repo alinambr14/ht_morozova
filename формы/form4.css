@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 214, 66);
+}
+form{
+    color: rgb(99, 99, 99);
+    box-shadow: 6px 6px 7px 0px rgba(34, 60, 80, 0.1);
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin: 40px auto;
+}
+input, p, h1, button, footer{
+    display: block;
+    margin: 20px;
+}
+input{
+    width: 400px;
+    padding: 10px;
+}
+.text input{
+    padding-bottom: 80px;
+}
+button{
+    width: -webkit-fill-available;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    background-color:rgb(16, 214, 66);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}

@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    border-top: 4px solid rgb(255, 164, 28);
+
+}
+img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-right: none;
+    margin: 0;
+    padding: 3px;
+}
+.name{
+    display: flex;
+    margin: 20px 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+}
+button{
+    width: -webkit-fill-available;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    background-color:rgb(255, 164, 28) ;
+    font-size: 20px ;
+}
+div, h2, button{
+    margin: 20px;
+}
+input{
+    width: 400px;
+    padding: 10px;
+}
+.ln input, .fn input{
+    width: 160px;
+}
+.all div{
+    display: flex;
+}
+.all{
+    margin: 0;
+}
+input#female, input#male{
+    width: 10px;
+}
+input#agree, input#want{
+    width: 10px;
+    height: 1px;
+}
+select{
+    width: 440px;
+    padding: 10px ;
+}
+h2{
+    text-align: center;
+}

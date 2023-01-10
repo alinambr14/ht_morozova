@@ -1,0 +1,27 @@
+form{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(99, 99, 99);
+}
+.name{
+    display: flex;
+}
+input, textarea, label, button, h1, p{
+    display: block;
+    margin: 20px;
+}
+input{
+    width: 300px;
+}
+textarea{
+    width: 640px;
+}
+.email input{
+    width: 640px;
+}
+button{
+    background-color: rgb(49, 170, 226);
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 3px;
+}
